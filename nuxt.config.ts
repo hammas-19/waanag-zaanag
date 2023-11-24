@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
     modules: [
     '@nuxtjs/tailwindcss'
+    ],
+    css: [
+    "/layouts/global.css",
   ]
 })

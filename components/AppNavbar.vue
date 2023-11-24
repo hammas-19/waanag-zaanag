@@ -67,7 +67,7 @@ input:checked+div span.line-2 {
 }
 </style>
 <template>
-  <nav class="relative dark:bg-cyanBlue bg-selago px-6 lg:py-0 py-10">
+  <nav class="relative bg-slate-500 px-6 lg:py-0 py-10">
     <div class="lg:flex lg:items-center lg:justify-between lg:container lg:mx-auto mx-0">
       <div class="flex items-center justify-between relative">
         <!-- Mobile menu -->
@@ -89,17 +89,6 @@ input:checked+div span.line-2 {
               <path stroke-dark:text-skyBLuelinecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
-
-          <!-- burger menu icon button -->
-
-          <!-- <div class="switch" @click="isOpenBurgerMenu = !isOpenBurgerMenu">
-                                <input type="checkbox">
-                                <div>
-                                    <span class="line-1"></span>
-                                    <span class="line-2"></span>
-                                    <span class="line-3"></span>
-                                </div>
-                            </div> -->
 
         </div>
       </div>
@@ -141,23 +130,23 @@ const NavbarLink = [
     href: "/",
   },
   {
-    name: "Mock exams",
+    name: "About Academy",
     href: "/mockExams",
   },
   {
-    name: "Custom mocks",
+    name: "OLevels",
     href: "/customMocks",
   },
   {
-    name: "Subject-wise",
+    name: "Faculty",
     href: "/subject-wise",
   },
   {
-    name: "About Us",
+    name: "Schedule",
     href: "/aboutUs",
   },
   {
-    name: "Blogs",
+    name: "Math Blocks",
     href: "/blog",
   },
   // {

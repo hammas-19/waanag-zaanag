@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "TWC";
+    src: local("TWC"),
+     url(/assets/TCM_____.TTF) format("truetype");
+}
+
+html {
+    font-family: "TWC";
+}
