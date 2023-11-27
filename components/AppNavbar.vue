@@ -150,6 +150,10 @@ const NavbarLink = [
     href: "/blog",
   },
   // {
+    // name: "Math Blocks",
+    // href: "/blog",
+   //
+  // {
   //    name: "profile view",
   //    href: "/userDashboard/[slug]",
   // }
