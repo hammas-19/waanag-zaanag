@@ -109,7 +109,7 @@ input:checked+div span.line-2 {
           </span>
 
           <div class="flex gap-5">
-            <NuxtLink to="/auth/login"
+            <NuxtLink to="/"
               class="px-4 py-2 text-center font-medium text-sm rounded-md text-purplHeart border border-purplHeart cursor-pointer hover:bg-purplHeart hover:text-white transition-all">
               Login</NuxtLink>
             <NuxtLink to="/auth/Signup"
@@ -131,32 +131,32 @@ const NavbarLink = [
   },
   {
     name: "About Academy",
-    href: "/mockExams",
+    href: "/",
   },
   {
     name: "OLevels",
-    href: "/customMocks",
+    href: "/",
   },
   {
     name: "Faculty",
-    href: "/subject-wise",
+    href: "/",
   },
-  {
+  // {
+  //   name: "Schedule",
+  //   href: "/",
+  // },
+  // {
+  //   name: "Math Blocks",
+  //   href: "/",
+  // },
+    {
     name: "Schedule",
-    href: "/aboutUs",
+    href: "/",
   },
   {
     name: "Math Blocks",
-    href: "/blog",
-  },
-  // {
-    // name: "Math Blocks",
-    // href: "/blog",
-   //
-  // {
-  //    name: "profile view",
-  //    href: "/userDashboard/[slug]",
-  // }
+    href: "/",
+  }
 ];
 
 </script>
